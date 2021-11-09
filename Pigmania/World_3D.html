@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>World3D</title>
+
+</head>
+<body style="overflow: hidden; margin: 0; padding: 0">
+<canvas id="cvs" style="display: block"></canvas>
+<script type="module">
+    import * as World3D from "./World3D.js";
+
+    const cvs = document.getElementById("cvs");
+    World3D.Init3DWorld(cvs);
+
+
+</script>
+</body>
+</html>
